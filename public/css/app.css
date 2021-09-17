@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: #232323;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.logo {
+  max-width: 35%;
+}
+
+.main-img {
+  height: 628px;
+}
+
+.main {
+  background-color: #e2ceca44;
+}
+
+li a {
+  transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: #905D4C;
+}
+
+.empty-cart {
+  width: 800px;
+  height: 500px;
+}
+
+.empty-cart img {
+  width: 100%;
+  height: 100%;
+}
+
+.order-btn {
+  background-color: #905D4C;
+}
+
+.go-back-btn {
+  background-color: #905D4C;
+}
+
+.go-back-btn:hover {
+  color: #905D4C;
+  background-color: #e2ceca44;
+}
+
+.login {
+  background-color: #e2ceca44;
+}
+
+.login-btn {
+  background-color: #905D4C;
+}
+
+.login-btn:hover {
+  color: #905D4C;
+  background-color: #e2ceca44;
+}
+
+.forgot-psw-text {
+  color: #905D4C;
+}
+

@@ -1,0 +1,63 @@
+@import './variables';
+
+body{
+    font-family: 'Lato',sans-serif;
+    color: $dark;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+.logo{
+    max-width: 35%;
+}
+.main-img
+{
+    height: 628px;
+}
+.main
+{
+    background-color: $secondary;
+}
+li a{
+    transition: $smooth_transition;
+    &:hover{
+        color: $primary;
+    }
+}
+.empty-cart
+{
+    width: 800px;
+    height: 500px;
+}
+.empty-cart img{
+    width: 100%;
+    height: 100%;
+}
+.order-btn{
+    background-color: $primary;
+}
+.go-back-btn{
+    background-color: $primary;
+    &:hover{
+        color: $primary;
+        background-color: $secondary
+    }
+}
+.login
+{
+    background-color: $secondary;
+}
+.login-btn
+{
+    background-color: $primary;
+    &:hover{
+        color: $primary;
+        background-color: $secondary;
+    }
+}
+.forgot-psw-text
+{
+    color: $primary;
+
+}
